@@ -1,0 +1,16 @@
+<!--
+This file is a MODIFIED copy of the file located at
+https://github.com/deepmind/dm_control/blob/a8112e730ed109c7b21a296f5cb1402bfb0bbcee/dm_control/suite/common/visual.xml,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+Modifications:
+    * Added this header
+-->
+<mujoco>
+  <visual>
+    <headlight ambient=".4 .4 .4" diffuse=".8 .8 .8" specular="0.1 0.1 0.1"/>
+    <map znear=".01"/>
+    <quality shadowsize="2048"/>
+  </visual>
+</mujoco>

@@ -1,0 +1,2 @@
+seads_envs/board_games/lightsout_boards_s5.h5py filter=lfs diff=lfs merge=lfs -text
+seads_envs/board_games/tileswap_boards_s3.h5py filter=lfs diff=lfs merge=lfs -text

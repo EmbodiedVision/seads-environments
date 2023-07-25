@@ -1,0 +1,13 @@
+This directory contains code excerpts borrowed from 
+https://github.com/deepmind/deepmind-research/tree/7e7255eed10d227154cd746614642d0322ada755/physics_planning_games,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+Files containing borrowed code excerpts are
+   * composed_task.py
+   * lightsout_board.py
+   * lightsout_logic.py
+   * tileswap_board.py
+   * tileswap_logic.py
+
+We refer to these files for a detailed declaration of borrowed code excerpts.

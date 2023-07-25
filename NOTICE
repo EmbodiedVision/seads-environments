@@ -1,0 +1,60 @@
+seads-environments
+Copyright 2022 Max-Planck-Gesellschaft
+Licensed under the Apache License, Version 2.0 (see LICENSE)
+Code author: Jan Achterhold, jan.achterhold@tuebingen.mpg.de
+Embodied Vision Group, Max Planck Institute for Intelligent Systems, Tübingen
+
+--------
+
+The directory seads_envs/third_party/physics_planning_games/board_games/internal contains non-modified source files from
+https://github.com/deepmind/deepmind-research/tree/7e7255eed10d227154cd746614642d0322ada755/physics_planning_games/board_games/_internal, 
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+The following files are copied:
+   * seads_envs/third_party/physics_planning_games/board_games/internal/arenas.py
+   * seads_envs/third_party/physics_planning_games/board_games/internal/boards.py
+   * seads_envs/third_party/physics_planning_games/board_games/internal/observations.py
+   * seads_envs/third_party/physics_planning_games/board_games/internal/pieces.py
+   * seads_envs/third_party/physics_planning_games/board_games/internal/pieces_test.py
+   * seads_envs/third_party/physics_planning_games/board_games/internal/registry.py
+   * seads_envs/third_party/physics_planning_games/board_games/internal/tags.py
+
+--------
+
+The directory seads_envs/hybrid/reacher contains modified source (xml) files from
+https://github.com/deepmind/dm_control/tree/a8112e730ed109c7b21a296f5cb1402bfb0bbcee/dm_control/suite,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+The following files are affected:
+   * seads_envs/hybrid/reacher/xmls/reacher.xml
+   * seads_envs/hybrid/reacher/xmls/common/materials.xml
+   * seads_envs/hybrid/reacher/xmls/common/skybox.xml
+   * seads_envs/hybrid/reacher/xmls/common/visual.xml
+    
+The files are modified to contain a copyright header, also stating the particular modifications.
+
+--------
+
+The directory seads_envs/hybrid/jaco contains code excerpts borrowed from 
+https://github.com/deepmind/deepmind-research/tree/7e7255eed10d227154cd746614642d0322ada755/physics_planning_games,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+Files containing borrowed code excerpts are
+   * seads_envs/hybrid/jaco/composed_task.py
+   * seads_envs/hybrid/jaco/lightsout_board.py
+   * seads_envs/hybrid/jaco/lightsout_logic.py
+   * seads_envs/hybrid/jaco/tileswap_board.py
+   * seads_envs/hybrid/jaco/tileswap_logic.py
+
+We refer to these files for a detailed declaration of borrowed code excerpts.
+
+--------
+
+The file seads_envs/utils/dmc2gym.py is copied non-modified from 
+https://github.com/denisyarats/dmc2gym, 
+licensed under the MIT license, 
+see seads_envs/utils/DMC2GYM_LICENSE.
+Copyright (c) 2020 Denis Yarats.

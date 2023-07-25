@@ -1,0 +1,12 @@
+This directory contains modified source (xml) files from
+https://github.com/deepmind/dm_control/tree/a8112e730ed109c7b21a296f5cb1402bfb0bbcee/dm_control/suite,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+The following files are affected:
+   * xmls/reacher.xml
+   * xmls/common/materials.xml
+   * xmls/common/skybox.xml
+   * xmls/common/visual.xml
+    
+The files are modified to contain a copyright header, also stating the particular modifications.

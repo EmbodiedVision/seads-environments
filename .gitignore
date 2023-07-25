@@ -1,0 +1,13 @@
+*.pyc
+.idea
+__pycache__
+.vscode/
+*.so
+*.o
+*.egg-info
+build/
+dist/
+
+.ipynb_checkpoints
+
+/experiments

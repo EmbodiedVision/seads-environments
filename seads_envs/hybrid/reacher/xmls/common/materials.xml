@@ -1,0 +1,37 @@
+<!--
+This file is a MODIFIED copy of the file located at
+https://github.com/deepmind/dm_control/blob/a8112e730ed109c7b21a296f5cb1402bfb0bbcee/dm_control/suite/common/materials.xml,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+Modifications:
+    * Added this header
+    * Added a `rootjoint` material (l. 19 of the modified code)
+    * Changed the alpha values of the `self`, `self_default`, `self_highlight` materials to `1` (ll. 10-12 of the original code)
+-->
+<!--
+Common textures, colors and materials to be used throughout this suite. Some
+materials such as xxx_highlight are activated on occurence of certain events,
+for example receiving a positive reward.
+-->
+<mujoco>
+  <asset>
+    <texture name="board" type="2d" builtin="flat" width="300" height="300"/>
+    <material name="board" texture="board" reflectance=".2"/>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".1 .2 .3" rgb2=".2 .3 .4" width="300" height="300" mark="edge" markrgb=".2 .3 .4"/>
+    <material name="grid" texture="grid" texrepeat="1 1" texuniform="true" reflectance=".2"/>
+    <material name="self" rgba=".7 .5 .3 0.3"/>
+    <material name="self_default" rgba=".7 .5 .3 0.3"/>
+    <material name="self_highlight" rgba="0 .5 .3 0.3"/>
+    <material name="effector" rgba=".7 .4 .2 1"/>
+    <material name="effector_default" rgba=".7 .4 .2 1"/>
+    <material name="effector_highlight" rgba="0 .5 .3 1"/>
+    <material name="decoration" rgba=".3 .5 .7 1"/>
+    <material name="rootjoint" rgba=".3 .5 .7 0"/>
+    <material name="eye" rgba="0 .2 1 1"/>
+    <material name="target" rgba=".6 .3 .3 1"/>
+    <material name="target_default" rgba=".6 .3 .3 1"/>
+    <material name="target_highlight" rgba=".6 .3 .3 .4"/>
+    <material name="site" rgba=".5 .5 .5 .3"/>
+  </asset>
+</mujoco>

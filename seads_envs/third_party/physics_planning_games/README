@@ -1,0 +1,13 @@
+This directory contains non-modified source files from
+https://github.com/deepmind/deepmind-research/tree/7e7255eed10d227154cd746614642d0322ada755/physics_planning_games/board_games/_internal, 
+licensed under the Apache License, Version 2.0 (see LICENSE).
+Copyright 2020 DeepMind Technologies Limited.
+
+The following files are copied:
+   * arenas.py
+   * boards.py
+   * observations.py
+   * pieces.py
+   * pieces_test.py
+   * registry.py
+   * tags.py
